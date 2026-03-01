@@ -7,6 +7,9 @@ Given a legal question in English, retrieve the correct Swiss legal citations fr
 ## Setup
 
 ```bash
+git clone https://github.com/Omnilex-AI/Omnilex-Agentic-Retrieval-Competition.git
+cd Omnilex-Agentic-Retrieval-Competition
+
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
@@ -17,7 +20,10 @@ pip install -r requirements.txt
 
 ## Data
 
-Place all data files in the `data/` folder. `laws_de.csv` and `court_considerations.csv` are too large to store in the repo — download them from the competition page.
+Most data files are included in the repo. Download the two large corpus files from the Kaggle competition page and place them in the `data/` folder:
+
+- `laws_de.csv`
+- `court_considerations.csv`
 
 | File | Description |
 |------|-------------|
