@@ -7,8 +7,8 @@ Given a legal question in English, retrieve the correct Swiss legal citations fr
 ## Setup
 
 ```bash
-git clone https://github.com/Omnilex-AI/Omnilex-Agentic-Retrieval-Competition.git
-cd Omnilex-Agentic-Retrieval-Competition
+git clone https://github.com/alanyom/AI-ML-SP26
+cd AI-ML-SP26/Law_Retrieval
 
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
