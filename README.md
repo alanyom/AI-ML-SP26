@@ -1,4 +1,4 @@
-# Omnilex Agentic Legal Retrieval
+# Agentic Legal Retrieval
 
 Given a legal question in English, retrieve the correct Swiss legal citations from a German/French/Italian corpus. Scored on **Macro F1** — how well your predicted citation sets match the gold citation sets across all test queries.
 
